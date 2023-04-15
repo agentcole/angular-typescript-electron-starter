@@ -106,6 +106,5 @@
         }
       }
     }
-  },
-  "defaultProject": "angular-typescript-electron-starter"
+  }
 }
