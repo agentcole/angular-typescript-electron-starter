@@ -6,13 +6,18 @@
     "sourceMap": true,
     "outDir": "dist",
     "moduleResolution": "node",
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "types": ["node"],
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
     "baseUrl": ".",
     "paths": {
-      "*": ["node_modules/*"] 
+      "*": ["node_modules/*"]
     }
   },
-  "include": ["electron/**/*"]
+  "include": ["electron/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }

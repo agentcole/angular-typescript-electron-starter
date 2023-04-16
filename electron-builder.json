@@ -7,6 +7,13 @@
   },
   "files": [
     "**/*",
+    "!src/",
+    "!.angular",
+    "!.vscode",
+    "!tsconfig.json",
+    "!tsconfig.electron.json",
+    "!tsconfig.app.json",
+    "!README.md",
     "!**/*.ts",
     "!*.map",
     "!package.json",
