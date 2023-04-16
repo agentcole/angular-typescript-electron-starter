@@ -1,9 +1,14 @@
 /* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
   "compileOnSave": false,
+  "include": [
+    "src/**/*.ts",
+    "electron/**/*.ts",
+    "shared/**/*.ts"
+  ],
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
+    "outDir": "./dist",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitOverride": true,
@@ -22,6 +27,7 @@
       "es2020",
       "dom"
     ],
+    "allowSyntheticDefaultImports": true,
     "useDefineForClassFields": false
   },
   "angularCompilerOptions": {
@@ -31,3 +37,5 @@
     "strictTemplates": true
   }
 }
+
+
